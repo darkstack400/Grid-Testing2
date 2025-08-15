@@ -199,3 +199,62 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .items3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: auto;
+    }
+
+    .items4 .icon-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .items6 h1 {
+        font-size: 2rem;
+    }
+
+    .profile {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .service-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .task-btn,
+    .contact-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .items6 h1 {
+        font-size: 1.7rem;
+    }
+
+    .items8 h2 {
+        font-size: 1.2rem;
+    }
+
+    .profile img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
